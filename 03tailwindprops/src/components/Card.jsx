@@ -1,7 +1,7 @@
-import React from 'react'
 
-function Card({username, btnText="visit me"}) {
-    console.log(username);
+
+function Card({username, btnText="visit me"}) {    //Card component: accepts 'username' and optional 'btnText' prop defaulting to "visit me"
+    console.log(username);                         //we can also pass props in function card(props) and then use props.username, props.btnText
   return (
     <div className="relative h-[400px] w-[300px] rounded-md ">
   <img

@@ -1,7 +1,4 @@
-
-
 import Chai from "./chai"
-
 
 function App() {
   const username = "chai aur code"
@@ -16,3 +13,4 @@ function App() {
 }
 
 export default App
+
